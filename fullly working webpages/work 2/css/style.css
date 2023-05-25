@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul li a{
+    font-size: 1.5rem;
+}
+
+ul li a:hover{
+    color: #ff0000 !important;
+}
+
+ul li .fa-search{
+    font-size: 2rem;
+}
+
+/*--------------------*/
+
+.carousel-item{
+    height: 100vh;
+    min-height:300px ;
+}
+
+.carousel-caption{
+    bottom: 220px;
+}
+
+.carousel-indicators{
+    bottom:150px;
+}
+
+.carousel-caption h2{
+    font-size: 3.5rem;
+}
+
+/*-----------------------*/
+
+.fas, .fab{
+    font-size: 5rem;
+}
+
+i:hover{
+    color: rgb(255, 0, 0);
+}
+
+/*-----------------------*/
+
+.btn{
+    position: relative;
+    background: #000000;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    color: rgb(255, 0, 0);
+}
+
+/*-----------------------*/
+
+section{
+    padding: 100px;
+}
+
+.services{
+    background-color: #111;
+}
+
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services .content .servicesBx{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s; 
+}
+
+.services .content .servicesBx:hover{
+    background:rgb(255, 0, 0);
+}
+
+.services .content .servicesBx img{
+    max-width:80px;
+    filter: invert(1);
+}
+
+.services .content .servicesBx h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*-------------------=====-----------------------*/
+
+.contact{
+    background: #111;
+}
+
+.formBx{
+    min-width: 60%;
+}
+
+.formBx form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formBx form h3,
+.contentInfo h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formBx form input,
+.formBx form textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size:16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none; 
+}
+
+.formBx form textarea{
+    min-height: 200px;
+}
+
+.formBx form input::placeholder,
+.formBx form textarea::placeholder{
+    color: #999;
+}
+
+.contentInfo{
+    min-width: 40%;
+}
+
+.contentInfoBx{
+    position: relative;
+}
+
+.contentInfoBx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contentInfoBx .box .icon{
+    min-width: 40px;
+    padding-top:4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.contentInfoBx .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contentInfoBx .box .text h3{
+    font-weight: 500;
+    color: #ff0000;
+    margin-bottom: 0;
+}
+
+/*-------------------=====-----------------------*/
+
+.copyright{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,198 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+nav{
+     padding: 0px 0px!important;
+     background: #0d2481;
+}
+
+.navbar-brand{
+     width: 250px;
+     background: #000;
+     color: #fff;
+}
+
+.navbar-brand span{
+     font-size: 2rem;
+}
+
+.navbar-brand i{
+     font-size: 4rem;
+}
+
+.menu li{
+     padding: 0px 20px;
+}
+
+.menu li a{
+     color: #fff;
+}
+
+.navbar-nav li{
+     padding: 0px 20px ;
+}
+
+.navbar-nav a{
+     color: #fff;
+}
+
+.navbar-nav i{
+     color: #fff;
+}
+
+.navbar-nav .btn{
+     background: #fff;
+     color: #111;
+}
+
+/*========================================*/
+
+.box-one{
+   width: 100%;
+   height: 100vh;
+   background: url("../img/startup-849804_1920.jpg");
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
+
+.packet-one{
+   padding: 20px 50px;
+   margin-top: 20%;
+   background-color:rgba(242, 242, 242, 0.45) ; 
+   border-top: 3px solid #0d2481; 
+}
+
+.packet-one .btn{
+     width: 200px;
+     height: 40px;
+     background: #0d2481;
+     color: #fff;
+}
+
+/*========================================*/
+
+.box-two{
+     height: 400px;
+     background: #0e2984;
+}
+
+.box-two img{
+     width: 100%;
+     height: 400px;
+}
+
+.content-one{
+     color: #fff;
+     padding: 20px ;
+}
+
+.content-one .btn{
+     background: #0c2175;
+}
+
+/*========================================*/
+
+section{
+     padding: 120px 0px;
+}
+
+.box-three{
+     padding: 0px 40px ;
+}
+
+.box-four{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.packet-two{
+     width: 25%;
+     height: 300px;
+     transition: 0.5s;
+     background-image: url("../img/FB_IMG_1570996924536.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.packet-three{
+     width: 25%;
+     height: 300px;
+     transition: 0.5s;
+     background-image: url("../img/guitar-1758005__480.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.packet-four{
+     width: 25%;
+     height: 300px;
+     transition: 0.5s;
+     background-image: url("../img/photo-1513789181297-6f2ec112c0bc.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.box-three .btn{
+     background: #0d2481;
+     color: #fff;
+}
+
+/*========================================*/
+
+.box-four i{
+     font-size: 2rem;
+}
+
+.box-five .btn{
+     float: right;
+     background: #0d2481;
+     color: #fff;
+     width: 200px;
+     height: 40px;
+}
+
+/*========================================*/
+
+.box-six{
+     background: #0d2684;
+     padding: 60px 50px ;
+}
+
+.box-six{
+     color: #fff;
+}
+
+.box-six .btn{
+     width: 250px;
+     height: 50px;
+     background: #173198;
+     color: #fff;
+}
+
+/*================= responsive css=======================*/
+
+@media (min-width: 576px) and (max-width: 767px){
+     .content-one .btn{
+          margin-left: -60%;
+     } 
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+     .box-two{
+          height: 450px;
+     } 
+
+     .content-one .btn{
+          margin-left: -60%;
+     }  
+     
+     .packet-one{
+          width: 600px;
+     }
+}
+
+

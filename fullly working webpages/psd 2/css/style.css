@@ -1,0 +1,146 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.container-fluid{
+     padding: 0 !important;
+}
+
+.top{
+     width: 100% !important;
+     height: 120vh !important;
+     position: relative;
+}
+
+.contentOne{
+     position:absolute;
+     margin: 0 auto;
+     top: 40%;
+     left: 390px;
+     color: #fff;
+}
+
+.contentOne p{
+     font-size: 1.5rem;
+     font-family: 'Dancing Script', cursive;
+}
+
+h1{
+     letter-spacing: 10px;
+     font-family: bold;
+     font-family: 'Raleway', sans-serif;
+}
+
+.contentOne .btn{
+     width: 150px;
+     background: transparent;
+     border-color: #fff;
+     border-radius: 20px;
+     color: #fff;
+}
+
+.contentOne .btn:hover{
+     background: #fff;
+     color: #111;
+}
+
+.contentOne .fa-chevron-circle-down{
+     font-size: 2rem;
+}
+
+/*---------------------------------------------*/
+
+.contentTwo .container{
+     height: 80vh;
+     background: #efefef;
+}
+
+.contentTwo .col-md{
+     padding: 180px 100px;
+}
+
+.contentTwo .btn{
+     width: 150px;
+     background: transparent;
+     border-color: #111;
+     border-radius: 20px;
+     color: #111;
+}
+
+.contentTwo small{
+     font-size: 1.5rem;
+     font-family: 'Dancing Script', cursive;
+}
+
+.contentTwo .btn:hover{
+     background: #111;
+     color: #fff;
+}
+
+.contentTwo .fa-chevron-circle-down{
+     font-size: 1.5rem;
+}
+
+
+.image{
+     height: 420px;
+     padding: 30px 0px;
+}
+
+.my-img{
+     position:absolute ;
+     z-index: 100; 
+}
+
+.box{
+     width: 90%;
+     height: 380px;
+     border: 3px solid #cccccc;
+     position: absolute;
+     top: 70px;
+     left: -120px;
+     z-index: 10;
+}
+
+/*---------------------------------------------*/
+
+.contentThree{
+     margin-top: 100px;
+}
+
+.contentThree .img-fluid{
+     width: 100%;
+     height: 500px;
+}
+
+.p5{
+     margin-top:-13%;
+}
+
+.p6{
+     margin-top:-9%;
+}
+
+/*---------------------------------------------*/
+
+.contentFour{
+     width: 90%;
+     height: 350px;
+     top: 120%;
+    position: relative;
+     z-index: 100;
+}
+
+.child{
+     width: 100%;
+     height: 380px;
+     border: 3px solid #cccccc;
+     position: absolute;
+     
+     left:130px;
+     top: -50px;
+}
+
+
+

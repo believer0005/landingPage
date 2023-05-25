@@ -1,0 +1,228 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+h1{
+     color: #ffe600;
+}
+
+.fa-globe-asia{
+     font-size: 80px;
+     color: #ffe600;
+}
+
+.fa-angle-down{
+     font-size: 80px;
+}
+
+.fa-angle-down:hover{
+     color: #ffe600;
+}
+
+.btn{
+     background-color: transparent;
+     width: 110px;
+     border: 2px solid #ffe600 ;
+     color: #fff;
+}
+
+.btn:hover{
+     background: #ffe600;
+     color: #000;
+}
+
+                              /*===================================*/
+
+                              
+h2{
+     color: #000;
+     font-family: 'Indie Flower', cursive;
+}
+
+span{
+     color: #ffe600;
+}
+
+.container .fa-globe-asia{
+     font-size: 2.5rem;
+}
+
+.navtop{
+     border-bottom: 2px solid #ffe600;
+}
+
+.about{
+    text-align: center;
+}
+
+.about P{
+     color: #ffe600;
+}
+
+.about span{
+     font-size: 2.5rem;
+}
+
+.about .row p{
+     color: #000;
+}
+
+ul li a{
+     border: 2px solid #ffe600;
+}
+
+ul li a:hover{
+     background: #ffe600;
+     color: #000;
+}
+
+                               /*===================================*/
+
+.about1{
+     background: #ffeb33;
+     height: 500px;
+}
+
+.content{
+    padding-top: 250px ;
+}
+
+.content p{
+     font-style:italic;
+}
+
+small{
+     color: #fff;
+     font-size: 15px;
+}
+
+.img-fluid-zero{
+     width: 100%;
+     height: 200px;
+}
+
+.img-hover-zero{
+     position: relative;
+}
+
+.div-hover-zero{
+     width: 247px;
+     height: 200px;
+     background-color: #ffeb33;
+     position: absolute;
+     top:0px;
+     right: 15px;
+     opacity: 0;
+     transition: 0.5s;
+}
+
+.img-hover-zero:hover .div-hover-zero{
+     opacity: 0.8;
+}
+
+.fa-angry,
+.fa-frown,
+.fa-dizzy,
+.fa-laugh,
+.fa-grin-beam-sweat,
+.fa-grimace,
+.fa-grin-alt,
+.fa-grin-beam-sweat{
+     font-size: 5rem;
+     text-align: center;
+     line-height: 200px!important;
+}
+
+                                   /*===================================*/
+
+.cliients{
+     background: #424245;
+     height: 400px;
+}
+
+.cliients h3{
+     color: #fff;
+}
+
+.cliients p{
+     color: #ffeb33;
+}
+
+.content1{
+     padding-top: 130px ;
+}
+
+.icon{
+     color: #fff;
+     font-size: 4rem;
+    letter-spacing: 30px;
+}
+                                   /*===================================*/
+
+ .contact p{
+     color: #ffeb33;
+}
+
+.form-control{
+     background: #ffeb33!important; 
+     border: 1px solid #fff!important;
+}
+
+.form-control::placeholder{
+     color: #fff;
+}
+
+.form-group textarea{
+     min-height: 200px;
+     resize: none;
+} 
+
+.form-group button{
+     color: #000;
+}
+
+.form-group button:hover{
+     color: #ffeb33;
+     background: #000;
+}
+                                   /*===================================*/
+
+.footer{
+     background: #000;
+     height: 80px;
+}
+
+.col-md-6 p{
+     color: #ffeb33;
+}
+
+.icon1{
+     color: #fff;
+     letter-spacing: 10px;
+}
+
+                                   /*===================================*/
+		
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+     .div-hover-zero{
+          width: 482px;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+     .div-hover-zero{
+          width: 144px;
+     }
+     
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+     .div-hover-zero{
+          width: 202px;
+     }
+}
+                         
+                              
